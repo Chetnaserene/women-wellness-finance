@@ -1,13 +1,8 @@
-import React from 'react';
-
-const HeroSection = () => {
+function HeroSection() {
   return (
-    <section className="hero">
-      <h1>Empowering Women in Wellness & Finance</h1>
-      <p>Welcome! Take charge of your health and money with tools just for you.</p>
-      <button>Get Started</button>
+    <section>
+      <h1>Welcome to Women Wellness Finance</h1>
+      <p>Your trusted partner in financial and wellness growth.</p>
     </section>
   );
-};
-
-export default HeroSection;
+}
